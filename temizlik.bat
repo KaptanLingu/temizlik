@@ -38,10 +38,6 @@ del /s /f /q %WinDir%\LastGood\*.* >NUL 2>&1
 rd /s /q %WinDir%\LastGood >NUL 2>&1
 md %WinDir%\LastGood >NUL 2>&1
 
-del /s /f /q "%WinDir%\Offline Web Pages\*.*" >NUL 2>&1
-rd /s /q "%WinDir%\Offline Web Pages" >NUL 2>&1
-md "%WinDir%\Offline Web Pages" >NUL 2>&1
-
 del /s /f /q %WinDir%\$NtServicePackUninstall$\*.* >NUL 2>&1
 rd /s /q %WinDir%\$NtServicePackUninstall$ >NUL 2>&1
 md %WinDir%\$NtServicePackUninstall$ >NUL 2>&1
@@ -99,6 +95,9 @@ rd /s /q %systemdrive%\RECYCLER >NUL 2>&1
 
 del /s /f /q %systemdrive%\Users\Public\*.* >NUL 2>&1
 rd /s /q %systemdrive%\Users\Public >NUL 2>&1
+
+del /s /f /q "%WinDir%\Offline Web Pages\*.*" >NUL 2>&1
+rd /s /q "%WinDir%\Offline Web Pages" >NUL 2>&1
 
 del /s /f /q "%WinDir%\Web klasörü\*.*" >NUL 2>&1
 rd /s /q "%WinDir%\Web klasörü" >NUL 2>&1
